@@ -31,7 +31,7 @@
 
 **项目链接：** [watermelonhitの博客](http://watermelonhit.cn:9014/#/)
 
-**后台管理：** []()
+**后台管理：** [https://github.com/watermelonhit/BlogManager](https://github.com/watermelonhit/BlogManager)
 
 **Github地址：** [https://github.com/watermelonhit/PersonalBlog/tree/master](https://github.com/watermelonhit/PersonalBlog/tree/master)
 
