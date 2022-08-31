@@ -33,7 +33,7 @@
 
 **后台管理：** [https://github.com/watermelonhit/BlogManager](https://github.com/watermelonhit/BlogManager)
 
-**Github地址：** [https://github.com/watermelonhit/PersonalBlog/tree/master](https://github.com/watermelonhit/PersonalBlog/tree/master)
+**Github地址：** [https://github.com/watermelonhit/PersonBlog](https://github.com/watermelonhit/PersonBlog)
 
 欢迎大家投入到本项目的建设中，让它焕发出更加绚丽的光彩！
 
