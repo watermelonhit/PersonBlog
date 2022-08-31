@@ -1,0 +1,55 @@
+#server
+server:
+  port: 9012
+  servlet:
+    context-path: /api
+#数据库
+spring:
+  servlet:
+    multipart:
+      # 上传文件总的最大值
+      max-file-size: 60MB
+      # 单个文件的最大值
+      max-request-size: 10MB
+  application:
+    name: watermelonhit_blog # 项目名称
+  datasource:
+    url: jdbc:mysql://112.74.190.84:3306/具体数据库名称?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    username: 用户名
+    password: 密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    password: 密码
+    cluster: #这里配置了redis集群模式，可以采用跟dev一样的单机模式
+      max-redirects: 4  # 重定向的最大次数
+      nodes:
+        - ip:端口
+        - ip:端口
+        - ip:端口
+        - ip:端口
+        - ip:端口
+        - ip:端口
+    jedis:
+      pool:
+        ### 连接池最大连接数（使用负值表示没有限制）
+        max-active: 10
+        ### 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1
+        ### 连接池中的最大空闲连接
+        max-idle: 8
+        ### 连接池中的最小空闲连接
+        min-idle: 0
+    ### 连接超时时间（毫秒）
+    timeout: 150000
+
+#mybatis-plus
+mybatis-plus:
+  #  configuration: #打印日志
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      table-prefix: ms_
+
+# 配置日志输出
+logging:
+  config: classpath:logback-spring.xml

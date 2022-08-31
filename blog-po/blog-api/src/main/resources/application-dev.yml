@@ -1,0 +1,36 @@
+#server
+server:
+  port: 9012
+  servlet:
+    context-path: /api
+#数据库
+spring:
+  servlet:
+    multipart:
+      # 上传文件总的最大值
+      max-file-size: 60MB
+      # 单个文件的最大值
+      max-request-size: 10MB
+  application:
+    name: watermelonhit_blog  #项目名称，可以随意改
+  datasource:
+    url: jdbc:mysql://localhost:3306/具体数据库名称?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    username: 用户名
+    password: 密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 安装了redis的主机ip
+    port: #端口
+    password: 密码
+#mybatis-plus
+mybatis-plus:
+  configuration: #打印日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      table-prefix: ms_
+
+# 配置日志输出
+logging:
+  config: classpath:logback-spring.xml
+

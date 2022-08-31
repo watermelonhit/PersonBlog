@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+这个xml相当于EmployeeDao的实现类
+namespace：EmployeeDao的全类名
+id：方法名
+-->
+<mapper namespace="com.watermelonhit.blog.mapper.BoardMapper">
+
+    <select id="getAllLegalBoards" resultType="com.watermelonhit.blog.vo.BoardVo">
+        SELECT u.nickname authorName, b.context, b.create_time
+        FROM ms_board b
+                 left join ms_sys_user u
+                           on b.author_id = u.id
+        where b.statue = 1
+        order by b.create_time desc;
+    </select>
+</mapper>
+
