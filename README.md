@@ -144,6 +144,7 @@ npm run start
 http:localhost:9014
 ```
 #### 后端：
+- 0.导入数据库数据，运行sql文件
 - 1.安装依赖，在blog-api中的pom文件进行maven刷新一下
 - 2.rebuild一下blog-api项目
 - 3.运行本项目（可以直接运行BlogApp中的main方法）
