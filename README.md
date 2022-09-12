@@ -20,7 +20,7 @@
       <img src="https://img.shields.io/badge/redis-6.2.6-green"/>
       <img src="https://img.shields.io/badge/rabbitmq-3.9.11-green"/>
       <img src="https://img.shields.io/badge/vue-2.6.12-green"/>
-      <img src="https://img.shields.io/badge/element--ui-2.15.6"/>
+      <img src="https://img.shields.io/badge/element--ui-2.15.6
 -green"/>
    </a>
 </p>
