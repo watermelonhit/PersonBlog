@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-   <a target="_blank" href="https://github.com/X1192176811/blog">
+   <a target="_blank" href="http://watermelonhit.cn/">
       <img src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
       <img src="https://img.shields.io/badge/springboot-2.5.0-green"/>
       <img src="https://img.shields.io/badge/maven-3.8.1-green"/>
@@ -20,8 +20,7 @@
       <img src="https://img.shields.io/badge/redis-6.2.6-green"/>
       <img src="https://img.shields.io/badge/rabbitmq-3.9.11-green"/>
       <img src="https://img.shields.io/badge/vue-2.6.12-green"/>
-      <img src="https://img.shields.io/badge/element--ui-2.15.6
--green"/>
+      <img src="https://img.shields.io/badge/element--ui-2.15.6-green"/>
    </a>
 </p>
 
